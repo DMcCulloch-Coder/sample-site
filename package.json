@@ -1,0 +1,25 @@
+{
+    "name": "sample-site",
+    "version": "1.0.0",
+    "description": "Sample website",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js -e js,html,css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DMcCulloch-Coder/sample-site.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DMcCulloch-Coder/sample-site/issues"
+    },
+    "homepage": "https://github.com/DMcCulloch-Coder/sample-site#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "live-server": "^1.2.1"
+    }
+}
