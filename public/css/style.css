@@ -24,8 +24,21 @@ header {
     font-weight: bold;
     width: 90%;
     margin: 0 auto;
+    background-image: url('../assets/beach.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 220px;
 
 }
+
+.header__text {
+    color: black;
+    text-align: center;
+    padding: 98px 0;
+
+}
+
 
 main {
     width: 90%;
@@ -35,7 +48,7 @@ main {
 
 .wrapper {
     flex: 1 0 auto;
-    
+
 }
 
 footer {
