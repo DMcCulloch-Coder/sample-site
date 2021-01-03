@@ -32,7 +32,7 @@
                 </div>
                 <div class="main__form--dropdown">
                     <label for="Destination">Select Destination:</label>
-                    <select name='Destination'>
+                    <select name='Destination' id='Destination'>
                         <option value='Any'>Any</option>
                         <option value='orlando_fl'>Orlando, FL</option>
                         <option value='pittsburgh_pa'>Pittsburgh, PA</option>
@@ -43,7 +43,7 @@
                     <label for='email-entry'>Enter e-mail:</label>
                     <input type='email' name='email-entry' id='email'>
                 </div>
-                <button class="main__form--button" type="submit">
+                <button class="main__form--button" type="submit" onclick='getInfo()'>
                     Find Out More!!!
                 </button>
 
